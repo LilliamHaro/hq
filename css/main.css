@@ -92,29 +92,55 @@ background: #71b372;;
 
 /* --------------------------------------------------------------------------------- */
 
-@media (min-width: 992px) { 
-/* ---------------------------Nav------------------------------------------------------ */
-  .logo-none {
-      display: inline ;
-  }
-  .navbar-nav {
-      width: auto;
-      align-items: flex-end;
-      border: none;
-      border-radius: 5px;
-      background: transparent;
-  }
-  .color-white {
-      color: #fff !important;
-  }
+
+/* -----------------------------Home------------------------------------------------ */
+#home {
+  overflow: hidden;
+}
+#home > div > h1 {
+  color: pink;
+  font-size: 6em;
+  margin-top:200px;
+}
+#home > div > h4 {
+  color: yellowgreen;
+}
 /* --------------------------------------------------------------------------------- */
 
 
-  }
-
-
+/* mobil */
 @media only screen and (max-width: 600px) {
 
-}
+  /* -----------------------------Home------------------------------------------------ */
+  #home > div > h1 {
+    font-size: 3em;
+    margin-top:60vh;
+  }
+  #home > div > h4 {
+    display: none
+  }
+  /* --------------------------------------------------------------------------------- */
 
+
+}
+/* desktop */
+@media (min-width: 992px) { 
+  /* ---------------------------Nav------------------------------------------------------ */
+    .logo-none {
+        display: inline ;
+    }
+    .navbar-nav {
+        width: auto;
+        align-items: flex-end;
+        border: none;
+        border-radius: 5px;
+        background: transparent;
+    }
+    .color-white {
+        color: #fff !important;
+    }
+  /* --------------------------------------------------------------------------------- */
+  
+  
+    }
 
