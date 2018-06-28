@@ -45,11 +45,10 @@ background: #71b372;;
   border-radius: 5px;
   background: #fff;
 }
-.border-top-bottom {
-  border-top-color: dimgray;
-  border-bottom-color: dimgray
-  
+.navbar-brand {
+  margin-right: 0;
 }
+
 .dropdown-toggle::after {
   display: none;
 }
