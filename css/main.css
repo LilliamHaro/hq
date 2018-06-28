@@ -1,0 +1,30 @@
+*{ margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-pink {
+  background-color: pink;
+}
+
+.heigth-100 {
+  height: 100vh;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
