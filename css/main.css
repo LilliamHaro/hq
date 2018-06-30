@@ -32,7 +32,7 @@ li a:hover {
   color:#0067a3;
 }
 .bg-trans {
-background: url("../images/overlay.png"); 
+background: rgba(0, 0, 0, 0.2);
 background-position: 100% 100%;  
 }
 
@@ -91,9 +91,7 @@ background-position: 100% 100%;
 .nav-item {
   margin-left: 15px;
 }
-.mg-top-100{
-  z-index: -1;
-}
+
 
 /* --------------------------------------------------------------------------------- */
 
@@ -115,13 +113,42 @@ background-position: 100% 100%;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 .hero > div  {
-  margin-top: 200px;
-  text-align: left;
+  margin-top: 150px;
+  text-align: center;
   color: white;
+  font-weight: bold;
   text-transform: uppercase;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.hero-box {
+  width: 800px;
+  margin: 0 auto;
+  padding:35px;
+  position: relative;
+  z-index: 5;
+}
+.hero-box > h2 {
+  color: black;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+.hero-box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("../images/bg-ed-bn-cut.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  filter: blur(2px);
+  
 }
 
 /* --------------------------------------------------------------------------------- */
