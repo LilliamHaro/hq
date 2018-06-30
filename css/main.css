@@ -1,6 +1,7 @@
 *{ margin: 0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Gothic A1', sans-serif;
 
 }
 .bg-red {
@@ -31,7 +32,8 @@ li a:hover {
   color:#0067a3;
 }
 .bg-trans {
-background: #71b372;;   
+background: url("../images/overlay.png"); 
+background-position: 100% 100%;  
 }
 
 .navbar-light .navbar-toggler {
@@ -80,8 +82,11 @@ background: #71b372;;
 .main {
   height: 900px;;
 }
+.nav-link {
+  color: black!important;
+}
 .nav-link:hover {
-  color: #0067a3 !important;
+  color: gray !important;
 }
 .nav-item {
   margin-left: 15px;
@@ -96,14 +101,50 @@ background: #71b372;;
 /* -----------------------------Home------------------------------------------------ */
 #home {
   overflow: hidden;
+  background-image: url("../images/bg-ed.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  position: relative;
+  background-color: black;
 }
-#home > div > h1 {
-  color: pink;
-  font-size: 6em;
-  margin-top:200px;
+.hero {
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-#home > div > h4 {
-  color: yellowgreen;
+.hero > div  {
+  margin-top: 200px;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* -----------------------Third season---------------------------------------------------------- */
+#third-season {
+  position: relative;
+}
+.ushijima {
+  position: absolute; 
+  left: 0px; 
+  bottom: 0px;
+  top:5%;
+}
+.hinata {
+  position: absolute; 
+  right: 0px; 
+  bottom: 0px; 
+  top:10%;
+}
+
+.hinata > img, .ushijima > img {
+  height: 100%;
 }
 /* --------------------------------------------------------------------------------- */
 
@@ -163,6 +204,7 @@ background: #71b372;;
     }
     .color-white {
         color: #fff !important;
+        text-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black,0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black,0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black ;
     }
   /* --------------------------------------------------------------------------------- */
   
