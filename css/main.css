@@ -125,11 +125,12 @@ background-position: 100% 100%;
   /* justify-content: center; */
 }
 .hero-box {
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
-  padding:35px;
+  padding:50px;
   position: relative;
   z-index: 5;
+  border: 5px solid black;
 }
 .hero-box > h2 {
   color: black;
@@ -143,7 +144,7 @@ background-position: 100% 100%;
   top: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("../images/bg-ed-bn-cut.jpg");
+  background-image: url("../images/bg-ed-bn-cut-bn-cut.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
