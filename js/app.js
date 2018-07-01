@@ -21,4 +21,20 @@ $(document).ready(function() {
   // $(window).scroll(function() {
   //   scroll();
   // });
+
+
+function move() {
+  var elem = document.getElementsByClassName("hinata-jumping")[0];   
+  var right = -100;
+  var id = setInterval(frame, 100);
+  function frame() {
+    if (right == 0) {
+      clearInterval(id);
+    } else {
+      right++; 
+      elem.style.right = right + 'px'; 
+    }
+  }
+}
+move();
 });
