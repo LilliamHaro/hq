@@ -23,18 +23,20 @@ $(document).ready(function() {
   // });
 
 
+
+
 function move() {
-  var elem = document.getElementsByClassName("hinata-jumping")[0];   
-  var right = -100;
+  var elem = document.getElementsByClassName("hinata-home")[0];   
+  var width = 60;
   var id = setInterval(frame, 100);
   function frame() {
-    if (right == 0) {
+    if (width == 70) {
       clearInterval(id);
     } else {
-      right++; 
-      elem.style.right = right + 'px'; 
+      width++; 
+      elem.style.width = width + 'vw'; 
     }
   }
 }
-move();
+// move();
 });
